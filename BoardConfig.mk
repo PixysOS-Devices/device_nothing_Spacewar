@@ -70,6 +70,9 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/nothing/sm7325
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
