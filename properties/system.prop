@@ -21,6 +21,9 @@ ro.vendor.dirac.poolsize=3
 ro.vendor.dirac.acs.storeSettings=1
 ro.vendor.dirac.acs.ignore_error=1
 
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
 # Display
 debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
