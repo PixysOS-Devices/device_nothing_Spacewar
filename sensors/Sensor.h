@@ -113,6 +113,19 @@ class SysfsPollingOneShotSensor : public OneShotSensor {
     int mPollFd;
 };
 
+const std::string kFtsPath = "/sys/class/spi_master/spi0/spi0.0/";
+const std::string kFodPressedPath = kFtsPath + "fts_gesture_fod_pressed";
+const std::string kFodModePath = kFtsPath + "fts_gesture_fod_mode";
+
+class UdfpsSensor : public SysfsPollingOneShotSensor {
+  public:
+    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(sensorHandle, callback, kFodPressedPath, kFodModePath) {}
+
+  protected:
+    virtual std::vector<Event> readEvents() override;
+};
+
 }  // namespace implementation
 }  // namespace subhal
 }  // namespace V2_1
