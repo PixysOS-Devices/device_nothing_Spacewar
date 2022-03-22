@@ -117,7 +117,7 @@ on post-fs
     setrlimit 8 67108864 67108864
 
     # FOD
-    chown system system /sys/class/spi_master/spi0/spi0.0/fts_gesture_fod__mode
+    chown system system /sys/class/spi_master/spi0/spi0.0/fts_gestures
     chown system system /sys/class/spi_master/spi0/spi0.0/fts_gesture_fod_pressed
 
 on late-fs
