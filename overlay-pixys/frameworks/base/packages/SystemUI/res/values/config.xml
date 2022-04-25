@@ -5,4 +5,7 @@
             1 - LOCAL HBM
     -->
     <integer name="config_udfpsHbmType">0</integer>
+
+   <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
