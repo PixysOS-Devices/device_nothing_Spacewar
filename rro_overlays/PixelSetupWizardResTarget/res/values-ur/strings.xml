@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">‏آپ کے Nothing میں خوش آمدید</string>
+    <string name="deferred_setup_wizard_title">‏PixysOS کا سیٹ اپ مکمل کریں</string>
+    <string name="device_name">Nothing Phone (1)</string>
+    <string name="setup_wizard_title">‏PixysOS سیٹ اپ</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Välkommen till Nothing</string>
+    <string name="deferred_setup_wizard_title">Slutför konfigurationen av PixysOS</string>
+    <string name="device_name">Nothing Phone (1)</string>
+    <string name="setup_wizard_title">Konfiguration av PixysOS</string>
+</resources>

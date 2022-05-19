@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">ຍິນດີຕ້ອນຮັບສູ່ Nothing ຂອງທ່ານ</string>
+    <string name="deferred_setup_wizard_title">ສຳເລັດການຕັ້ງຄ່າຢູ່ PixysOS</string>
+    <string name="device_name">Nothing Phone (1)</string>
+    <string name="setup_wizard_title">ຕັ້ງຄ່າ PixysOS</string>
+</resources>

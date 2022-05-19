@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">আপোনাৰ Nothingলৈ স্বাগতম</string>
+    <string name="deferred_setup_wizard_title">PixysOSৰ ছেট আপ সম্পূৰ্ণ কৰক</string>
+    <string name="device_name">Nothing Phone (1)</string>
+    <string name="setup_wizard_title">PixysOS ছেট আপ</string>
+</resources>

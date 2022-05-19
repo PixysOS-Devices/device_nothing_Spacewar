@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Nothing түзмөгүңүзгө кош келиңиз</string>
+    <string name="deferred_setup_wizard_title">PixysOS түзмөгүн аягына чейин жөндөңүз</string>
+    <string name="device_name">Nothing Phone (1)</string>
+    <string name="setup_wizard_title">PixysOS түзмөгүн жөндөө</string>
+</resources>
