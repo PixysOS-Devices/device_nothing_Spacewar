@@ -46,7 +46,7 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Kernel
-BOARD_BOOTIMG_HEADER_VERSION := 3
+BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
