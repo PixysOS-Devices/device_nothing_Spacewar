@@ -277,6 +277,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.kernel.post_boot-yupik.sh \
     init.kernel.post_boot.sh \
+    init.Spacewar.perf.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
