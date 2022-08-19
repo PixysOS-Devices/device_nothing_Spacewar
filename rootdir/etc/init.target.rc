@@ -141,6 +141,10 @@ on early-boot
     start vendor.sensors
 
 on boot
+    # selinux nodes, hide permissive state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
     write /dev/cpuset/audio-app/cpus 1-2
     # set default schedTune value for camera-daemon
     write /dev/stune/camera-daemon/schedtune.prefer_idle 1
