@@ -25,9 +25,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/nfc \
     vendor/qcom/opensource/usb/etc
 
-# Include GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
-
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
