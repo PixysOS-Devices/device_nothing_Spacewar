@@ -78,6 +78,9 @@ TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_qca6750.ko
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/vendor_framework_compatibility_matrix.xml \
@@ -113,6 +116,13 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
+
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
