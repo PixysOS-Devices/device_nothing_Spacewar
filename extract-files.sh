@@ -64,6 +64,10 @@ function blob_fixup() {
         vendor/lib64/libgf_hal.so)
             sed -i "s|ro.boot.flash.locked|ro.bootloader.locked|g" "${2}"
             ;;
+         vendor/bin/hw/android.hardware.lights-service.qti)
+            "${PATCHELF}" --replace-needed "android.hardware.light-V1-ndk_platform.so" "android.hardware.light-V1-ndk.so" "${2}"
+            ;;
+
     esac
 }
 
