@@ -15,9 +15,15 @@
      <array name="config_color_mode_options_strings">
 	<item>Alive</item>
 	<item>Natural</item>
+	<item>Boosted</item>
+	<item>Saturated</item>
+	<item>Adaptive</item>
      </array>
      <array name="config_color_mode_options_values">
 	<item>260</item>
 	<item>0</item>
+	<item>1</item>
+	<item>2</item>
+	<item>3</item>
      </array>
 </resources>
