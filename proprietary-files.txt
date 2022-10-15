@@ -612,6 +612,17 @@ vendor/firmware/evass.mdt
 vendor/etc/cvp/v2.0/facedetection/model1.dat
 vendor/etc/cvp/v2.1/facedetection/model2.dat
 
+# Dirac
+system/etc/permissions/se.dirac.acs.xml
+system/priv-app/DiracAudioControlService/DiracAudioControlService.apk
+system/system/priv-app/NothingDiracService/NothingDiracService.apk
+vendor/etc/dirac/interfacedb
+vendor/etc/diracmobile.config
+vendor/etc/diracvdd.bin
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/libdiracapwrapper.so
+vendor/lib/soundfx/libdiraceffect.so
+
 # Display Calibration data
 vendor/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml
 
