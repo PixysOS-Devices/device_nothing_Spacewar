@@ -24,6 +24,7 @@ ro.vendor.dirac.acs.ignore_error=1
 # Display
 debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
+persist.sys.sf.color_mode=0
 
 # Media
 media.aac_51_output_enabled=true

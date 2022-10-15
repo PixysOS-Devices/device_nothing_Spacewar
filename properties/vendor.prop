@@ -96,6 +96,8 @@ vendor.display.enable_hdr10_gpu_target=1
 vendor.display.enable_optimize_refresh=1
 vendor.display.use_smooth_motion=1
 vendor.gralloc.disable_ubwc=0
+persist.sys.sf.color_saturation=1.0
+persist.sys.sf.color_mode=9
 
 # DPM
 persist.vendor.dpm.idletimer.mode=default
