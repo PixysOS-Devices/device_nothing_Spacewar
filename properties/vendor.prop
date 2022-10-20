@@ -78,6 +78,7 @@ persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
+bluetooth.device.default_name=Nothing Phone (1)
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
