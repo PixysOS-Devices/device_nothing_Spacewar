@@ -17,6 +17,7 @@
 <resources>
     <!-- Glyph Interface settings -->
     <string name="glyph_title">Glyph Interface</string>
+    <string name="glyph_summary">Customise brightness and more</string>
     <string name="glyph_enable">Use Glyph Interface</string>
     <string name="glyph_brightness_title">Brightness</string>
     <string name="glyph_charging_title">Charging</string>
