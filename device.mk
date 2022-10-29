@@ -255,6 +255,8 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     init.qti.kernel.rc \
     init.qti.kernel.sh \
+    init.qti.media.rc \
+    init.qti.media.sh \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
