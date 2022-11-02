@@ -414,6 +414,7 @@ vendor/lib64/libcvp2_1.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_util.so
 vendor/lib64/libcvpcpuRev_skel.so
+vendor/lib64/libdepthcomputation.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libjpege.so
@@ -444,8 +445,14 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libvidhance.so
+vendor/lib64/libvidhance_stabilizer.so
+vendor/lib64/libvidhance_active_ois.so
+vendor/lib64/libvidhance_stabilizer_g4.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
+vendor/lib64/libhdrdynamic.so
+vendor/lib64/libhdrdynamicootf.so
+vendor/lib64/libspectre.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
