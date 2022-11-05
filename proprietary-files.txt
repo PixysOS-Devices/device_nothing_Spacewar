@@ -713,8 +713,8 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DRM (Widevine L1)
-vendor/lib/liboemcrypto.so
-vendor/lib64/liboemcrypto.so
+#vendor/lib/liboemcrypto.so
+#vendor/lib64/liboemcrypto.so
 
 # ESE
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
