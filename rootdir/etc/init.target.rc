@@ -119,6 +119,7 @@ on post-fs
     # FOD
     chown system system /sys/class/spi_master/spi0/spi0.0/fts_gestures
     chown system system /sys/class/spi_master/spi0/spi0.0/fts_gesture_fod_pressed
+    chown system system /sys/class/spi_master/spi0/spi0.0/fts_gesture_single_tap_pressed
 
 on late-fs
     wait_for_prop hwservicemanager.ready true

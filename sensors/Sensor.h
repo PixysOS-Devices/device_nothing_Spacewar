@@ -154,6 +154,18 @@ class UdfpsSensor : public FtsPollingOneShotSensor {
               540, 1761) {}
 };
 
+const std::string kSingleTapPressedPath = kFtsPath + "fts_gesture_single_tap_pressed";
+
+class SingleTapSensor : public FtsPollingOneShotSensor {
+  public:
+    SingleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : FtsPollingOneShotSensor(
+              sensorHandle, callback, kSingleTapPressedPath, "single_click", "Single Tap Sensor",
+              "org.lineageos.sensor.single_tap",
+              static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 2),
+              -1, -1) {}
+};
+
 }  // namespace implementation
 }  // namespace subhal
 }  // namespace V2_1
