@@ -104,6 +104,7 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 system_ext/etc/permissions/audiosphere.xml
 -system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
+vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libdrc.so
 vendor/lib/libsurround_3mic_proc.so
@@ -117,6 +118,7 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/liblvacfs_wrapper.so
+vendor/lib/libssrec.so
 vendor/lib/libqtigef.so
 
 # Audio amplifier
