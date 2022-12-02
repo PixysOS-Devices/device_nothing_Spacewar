@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "vendor_nothing_Spacewar",
+    "target_path": "vendor/nothing/Spacewar"
+  },
+  {
+    "repository": "kernel_nothing_sm7325",
+    "target_path": "kernel/nothing/sm7325"
+  },
+  {
+    "repository": "vendor_nothing_camera",
+    "target_path": "vendor/nothing/camera",
+    "remote": "pixys-gitlab"
+  }
+]
