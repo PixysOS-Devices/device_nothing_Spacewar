@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
-         calculate the status bar height. -->
-    <dimen name="status_bar_height_default">36.0dip</dimen>
 
-    <!-- Height of the status bar in landscape.
+    <!-- Height of the status bar.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_landscape">@dimen/status_bar_height_default</dimen>
+    <dimen name="status_bar_height">36dp</dimen>
+
+    <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
+         calculate the status bar height. -->
+    <dimen name="status_bar_height_default">@dimen/status_bar_height</dimen>
+
 </resources>
