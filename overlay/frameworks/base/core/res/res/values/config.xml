@@ -201,7 +201,7 @@
     <integer-array name="config_udfps_sensor_props" translatable="false">
         <item>540</item>  <!-- <item>sensorLocationX</item> -->
         <item>2170</item> <!-- <item>sensorLocationY</item> -->
-        <item>94</item>   <!-- <item>sensorRadius</item> -->
+        <item>98</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
