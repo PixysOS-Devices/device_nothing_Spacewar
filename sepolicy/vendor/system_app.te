@@ -1,0 +1,2 @@
+allow system_app sysfs_leds:dir  search;
+allow system_app sysfs_leds:file { getattr ioctl open read write };
