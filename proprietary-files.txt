@@ -204,6 +204,13 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
+# Bluetooth (firmware) - from Spacewar - TKQ1.220915.002
+vendor/firmware/msnv10.bin|f595915334f55625f32f526d1e2a57ebce2f84e5
+vendor/firmware/msnv11.bin|0ede455464f857eb4205604b0c3281d418b99222
+vendor/firmware/msbtfw10.tlv|a5325ddacf71ec08913ffc7da8451dd36f08307d
+vendor/firmware/msbtfw11.tlv|a86441688e74d5e16bc073d4d5ae0b0a0309ac81
+vendor/firmware/msbtfw11.mbn|3857c318655995d9168ac28c4cbaf39d2181d188
+
 # Bluetooth (aptX) - from raven - TP1A.220624.021
 -system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 -system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
